@@ -4,6 +4,9 @@
 /* ------------------------------------------------------- */
 
 /* navbar section start */
+.my-nav-bar-part{
+    background-color: #264653;
+}
 .search-btn a{
     color: white;
     background-color: #E76F51;
@@ -18,6 +21,10 @@
 header{
     background-color: #264653;
     color: white;
+}
+
+.cbr-first-section{
+    margin-top: 20px;
 }
 
 .header-modal{
@@ -165,6 +172,9 @@ header{
     .cbr-video iframe{
         width: 100%;
     }
+    .cbr-first-section{
+        margin-top: 50px;
+    }
 }
 
     /* fot tablate */
@@ -175,6 +185,9 @@ header{
     }
     .cbr-video iframe{
         text-align: center;
+    }
+    .cbr-first-section{
+        margin-top: 50px;
     }
 }
 /* ------------------------------------------------------- */
@@ -200,4 +213,20 @@ header{
 }
 /* ------------------------------------------------------- */
 /* Registration Now section end */
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* footer section start */
+/* ------------------------------------------------------- */
+footer{
+    background-color: black;
+    color: white;
+}
+/* ------------------------------------------------------- */
+/* footer section end */
 /* ------------------------------------------------------- */
