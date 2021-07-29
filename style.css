@@ -1,0 +1,203 @@
+
+/* ------------------------------------------------------- */
+/* header section style start */
+/* ------------------------------------------------------- */
+
+/* navbar section start */
+.search-btn a{
+    color: white;
+    background-color: #E76F51;
+}
+/* navbar section end */
+
+
+
+
+
+
+header{
+    background-color: #264653;
+    color: white;
+}
+
+.header-modal{
+    color: black;
+}
+
+.purchase-btn{
+    border: none;
+    background-color: #E76F51;
+    padding: 10px 46px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border-radius: 6px;
+}
+/* ------------------------------------------------------- */
+/* header section style end */
+/* ------------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------------- */
+/* bike image part start */
+/* ------------------------------------------------------- */
+.bike-title-part{
+    color: black;
+}
+.bike-title-part p{
+    color: #E76F51;
+    font-size: 16px;
+}
+.single-pic{
+    width: 300px;
+    margin: 0 auto;
+}
+/* ------------------------------------------------------- */
+/* bike image part end */
+/* ------------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------------- */
+/* Happy clients part start */
+/* ------------------------------------------------------- */
+.happy-clients h1{
+    color: #E76F51;
+}
+.happy-clients h1 span{
+    color: black;
+}
+.happy-clients .star{
+    color: #E77C40;
+}
+.happy-clients .regina{
+    color: #23A6F0;
+    font-size: 16px;
+}
+.card-body span{
+    font-size: 16px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+/* ------------------------------------------------------- */
+/* Happy clients end */
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* latest News start */
+/* ------------------------------------------------------- */
+.news-titel {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #18191f;
+  }
+  
+  .news-text {
+    color: #6c6c6c;
+  }
+  .bike-card-btn a{
+    color: white;
+    background-color: #E76F51;
+  }
+  .honda-p-text{
+    font-size: 18px;
+  }
+/* ------------------------------------------------------- */
+/* latest News end */
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* Frequently Asked Questions start */
+/* ------------------------------------------------------- */
+.frq-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.frq-section h1{
+    color: black;
+}
+.frq-section h1 span{
+    color: #E76F51;
+}
+/* ------------------------------------------------------- */
+/* Frequently Asked Questions end */
+/* ------------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* Honda CBR review start */
+/* ------------------------------------------------------- */
+.review-text h3{
+    color: #23A6F0;
+}
+.review-text p{
+    text-align: justify;
+}
+.cbr-video iframe{
+    border-radius: 10px;
+}
+
+    /* for mobile */
+@media only screen and (max-width:688px){
+    .cbr-video{
+        width: 100%;
+    }
+    .cbr-video iframe{
+        width: 100%;
+    }
+}
+
+    /* fot tablate */
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .cbr-video{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .cbr-video iframe{
+        text-align: center;
+    }
+}
+/* ------------------------------------------------------- */
+/* Honda CBR review end */
+/* ------------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* Registration Now section start */
+/* ------------------------------------------------------- */
+.big-title-text{
+    color: black;
+}
+.big-title-text span{
+    color: #E76F51;
+}
+.registration-now-form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* ------------------------------------------------------- */
+/* Registration Now section end */
+/* ------------------------------------------------------- */

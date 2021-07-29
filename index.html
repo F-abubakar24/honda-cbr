@@ -9,11 +9,328 @@
     <!-- bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- main css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn link -->
+    <script src="https://kit.fontawesome.com/0625073611.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
-        
+      <!-- navbar section is start -->
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">News</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex search-btn">
+                      <a class="btn my-btn btn-outline-0" type="submit">Search</a>
+                  </form>
+              </div>
+          </div>
+      </nav>
+      </section>
+      <!-- navbar section is end -->
+
+        <!-- header section with text and image start -->
+        <section class="container py-4 mb-5">
+            <div class="row d-flex align-items-center">
+                <div class="text-part col-lg-6">
+                    <p class="fw-lighter">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="fw-bold">Honda CBR 300R</h1>
+                    <p class="fw-lighter" style="color: #E0E0E0;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat sunt nostrud amet.</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="purchase-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade header-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Are you sure ! you want to purchase now ?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <p>World's Largest Brand Marketplace. Choose Your Favorite Product and Order Now! Logistics Service. Trade Assurance. Most Popular. Production Monitoring.</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="image-part col-lg-6 gy-4">
+                    <img class="w-100" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- header section with text and image start -->
+
+
     </header>
+    <main>
+
+
+        <!-- Fetured Bikes section start -->
+        <section class="container text-center">
+            <div class="bike-title-part mb-5">
+                <h1 class="fw-bold">Fetured Bikes 2021</h1>
+                <p class="fw-bold">Best bike collection</p>
+            </div>
+            <div class="bike-img-part row d-flex justify-content-between mb-5">
+                <div class="single-pic col-lg-4 mb-4">
+                    <img style="filter: grayscale(500%);" class="w-100" src="images/feature-bike.jpg" alt="bike">
+                </div>
+                <div class="single-pic col-lg-4 my-4">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="bike">
+                </div>
+                <div class="single-pic col-lg-4 mt-4">
+                    <img style="filter: grayscale(500%);" class="w-100" src="images/feature-bike.jpg" alt="bike">
+                </div>
+            </div>
+        </section>
+        <!-- Fetured Bikes section end -->
+
+        <!-- ------------News------------- -->
+          <section class="news-section margin-t">
+            <div class="container">
+                <!-- -----------Section Title-------------- -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <div class="section-details text-center">
+                                <h2 class="section-title">latest News</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------Section Title End--------------- -->
+
+                <!-- ----------News Content----------- -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 pt-3 pt-lg-4">
+                    <div class="col">
+                        <div class="card border-3 border-radius h-100">
+                            <img src="images/bike-1.png" class="w-100 h-100" alt="News images">
+                            <div class="card-body">
+                                <h4 class="card-title news-titel fw-bold">Ducati XDIAVEL S-73</h4>
+                                <p class="card-text news-text honda-p-text">
+                                    The new XDiavel Black Star version embodies the sports side of the Ducati cruiser, with
+                                    a livery and equipment inspired
+                                    by the world of sports cars.
+                                </p>
+                                <div class="card-btn bike-card-btn">
+                                    <a href="#" class="btn my-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-3 border-radius h-100">
+                            <img src="images/bike-2.png" class="w-100 h-100" alt="News images">
+                            <div class="card-body">
+                                <h4 class="card-title news-titel fw-bold">Motorcycles & Scooters</h4>
+                                <p class="card-text news-text honda-p-text">
+                                    The new XDiavel Black Star version embodies the sports side of the Ducati cruiser, with
+                                    a livery and equipment inspired
+                                    by the world of sports cars.
+                                </p>
+                                <div class="card-btn bike-card-btn">
+                                    <a href="#" class="btn my-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-3 border-radius h-100">
+                            <img src="images/bike-3.png" class="w-100 h-100" alt="News images">
+                            <div class="card-body">
+                                <h4 class="card-title news-titel fw-bold">2021 Honda CBR500R</h4>
+                                <p class="card-text news-text honda-p-text">
+                                    The new XDiavel Black Star version embodies the sports side of the Ducati cruiser, with
+                                    a livery and equipment inspired
+                                    by the world of sports cars.
+                                </p>
+                                <div class="card-btn bike-card-btn">
+                                    <a href="#" class="btn my-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------News Content End----------- -->
+            </div>
+        </section>
+        <!-- ------------News End------------- -->
+
+        <!-- happy clients section start -->
+        <section class="container happy-clients mb-5">
+            <h1 class="fw-bold text-center my-5"><span>Happy</span> Clients says</h1>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/user-1.png" class="card-img-top mx-auto my-3" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-text"></i>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="regina fw-bold my-2">Regina Miles</p>
+                        <span class="fw-bold">Banker</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/user-2.png" class="card-img-top mx-auto my-3" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-text"></i>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="regina fw-bold my-2">Regina Miles</p>
+                        <span class="fw-bold">Banker</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/user-3.jpg" class="card-img-top rounded-circle mx-auto my-3" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-text"></i>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="regina fw-bold my-2">Regina Miles</p>
+                        <span class="fw-bold">Banker</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- happy clints section end -->
+
+        <!-- Frequently questions part start -->
+        <section class="container frq-section">
+          <h1 class="fw-bold mb-5 text-center">Frequently Asked <span>Questions</span></h1>
+          <div class="row gx-5">
+            <div class="col-lg-6">
+                <img class="w-100" src="images/faq.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the most important things I should know about riding a bike?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How can I tell if my helmet is old and I need a new one?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            My bike has been in storage is it safe to ride?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </section>
+        <!-- Frequently questions part end -->
+
+        <!-- Honda CBR review start -->
+        <section class="container mb-5">
+          <h1 class="fw-bold text-center big-title-text mb-5">Honda CBR300r <span>Review</span></h1>
+          <div class="row d-flex align-items-center mx-auto">
+            <div class="review-text col-12 col-lg-6">
+              <h3 class="mb-3">2021 Honda CBR 300R | First Ride</h3>
+              <p class="text-justify">Whether or not the CBR300R is the right bike for you depends on your priorities and, crucially, your dimensions. This bike is ideal for smaller riders, as it itself is a bit smaller than the average sportbike. With a single-cylinder four-stroke 286cc engine, the CBR300R enjoys a hair over 30 horsepower, and you can get one with ABS to make your braking life a bit easier.</p>
+            </div>
+            <div class="col-12 col-lg-6 iframe-container cbr-video">
+              <iframe width="560" height="320" src="https://www.youtube.com/embed/Q6ptOfYHtB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          </div>
+        </section>
+        <!-- Honda CBR review end -->
+
+        <!-- Registration Now section start  -->
+        <section class="container registration-now-form">
+          <h1 class="fw-bold text-center mb-4 big-title-text">Registration <span>Now</span></h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your E-mail">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Password">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </section>
+        <!-- Registration Now section end -->
+    </main>
 
 
 
